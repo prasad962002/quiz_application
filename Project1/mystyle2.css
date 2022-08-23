@@ -1,0 +1,22 @@
+
+  .linkin {
+    font-weight: 500;
+    background-color: rgba(252, 252, 252, 0.479);    
+    
+}
+
+.linkin:hover, .linkss:hover {
+    color: #000; 
+    text-decoration:none !important; 
+    cursor:pointer;  
+    
+    background-color: rgba(20, 149, 224, 0.425) !important;
+    transition: 0.3s !important;
+}
+
+.linkss{
+    font-weight: 500;
+
+}
+
+

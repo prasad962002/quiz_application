@@ -1,0 +1,15 @@
+<?php
+session_start();
+if(isset($_SESSION['admin'])){
+    unset($_SESSION['admin']);
+    //session_destroy();
+    header("location:../admin/adminlogin.php");    
+}
+else{
+    unset($_SESSION['loggedin']);
+              unset($_SESSION['username']);
+              unset($_SESSION['email']);
+              unset($_SESSION['user_id']);
+    header("location:../index.php");
+}
+?>
